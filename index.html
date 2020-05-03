@@ -49,22 +49,22 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="" class="nav-link">About me</a>
+                        <a href="#Aboutme" class="nav-link">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Education</a>
+                        <a href="#Education" class="nav-link">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Skills</a>
+                        <a href="#Hobbies" class="nav-link">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Skills" class="nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link">Certfications</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">Hobbies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">Contact Me</a>
+                        <a href="#ContactMe" class="nav-link">Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -97,10 +97,10 @@
         <div class="container-fluid">
             
 
-            <div class="row">
+            <div class="row" id="Aboutme">
                
                 <div class="col-sm-3">
-                    <img src="mypic.jpg" alt="Yash's pic" class="mypic" style="background-color: whitesmoke; padding:5%;">
+                    <img src="mypic.jpg" alt="Yash's pic" class="mypic">
                 </div>
                 <div class="col-lg-9">
                     <br>
@@ -118,7 +118,7 @@
         <hr style="height: 22px; background-color: brown; opacity: 60%;">
         <div class="container-fluid" >
             
-            <div class="row">
+            <div class="row" id="Education">
                 <div class="col-lg-9">
                     <br>
                     <h3 class="abtme" style="font-size: 2.6rem;">Education</h3>
@@ -136,8 +136,73 @@
             </div>
             <hr>
             <br>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color:whitesmoke; color: brown; margin: 0 1%;" >
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" >
+                    <div class="carousel-item active" >
+                        <h2 class="School" style="padding-left: 40%;">High School</h2>
+                        <img src="jnvlogo.jpg" alt="jnvlogo" class="logo" style="height: 22.5%; padding-left: 41%;">
+                        <hr style="height: 1px; background-color: brown;">
+                        <h3 class="School" style="font-size: 1.3rem; padding-left: 38%;">JNV Rikhiya, Deoghar</h3>
+                        <hr style="height: 1px; background-color: brown;">
+                        <p class="mypara educat">I have completed by High School from Jawahar Navodaya Vidyalaya, Rikhiya, Deoghar,
+                            Jharkhand.
+                            I secured 10 CGPA in 10th Board Examinations held by CBSE in the year 2016. Being one of the best
+                            students
+                            of Navodaya Vidyalaya Samiti, I recieved a Letter of appreciation from then HRD Minister Mrs. Smriti
+                            Zubin Irani.
+                            I have also represented my school in various Olympiads and national level competitions and bagged
+                            many medals for school. I have qualified NTSE level 1 conducted by NCERT. I have also qualified
+                            NSTSE and was ranked 5th in state.
+                        </p>
+                    </div>
+                    <div class="carousel-item" >
+                        <h2 class="School"  style="padding-left: 36%;">Senior Secondary</h2>
+                        <img src="redroselogo.jpg" alt="redroselogo" class="logo" style="height: 40%; padding-left: 39%;">
+                        <hr style="height: 1px; background-color: brown;">
+                        <h3 class="School" style="font-size: 1.3rem; padding-left: 36%;">Red Rose School, Deoghar</h3>
+                        <hr style="height: 1px; background-color: brown;">
+                        <p class="mypara educat">I have completed my Senior Secondary, i.e. Intermediate from Red Rose School, Deoghar,
+                            Jharkhand.
+                            During Class XI and XII, I also prepared for JEE Mains, JEE Advanced and other Engineering Entrance
+                            examinations.
+                            I passed out in the year 2018 with 78.2% marks. It seems to be a mediocre precentage, but I prepared
+                            mostly for Entrance Examinations.
+                            During class XI and XII, I passed Pre-Regional Mathematics Olympiad and Regional Mathematics
+                            Olympiad and qualified for Indian National Mathematics Olympiad.
+                        </p>
+                    </div>
+                    <div class="carousel-item" >
+                        <h2 class="School"  style="padding-left: 38%;">Undergraduate</h2>
+                        <img src="thaparlogo.jpg" alt="thaparlogo" class="logo" style="height: 40%; padding-left: 41%;">
+                        <hr style="height: 1px; background-color: brown;">
+                        <h3 class="School" style="font-size: 1.3rem; padding-left: 43%;">TIET, Patiala</h3>
+                        <hr style="height: 1px; background-color: brown;">
+                        <p class="mypara educat"> I secured AIR 14k in JEE Mains 2019 and AUR 7789 in JEE Advanced 2019, the most
+                            prestigious Engineering Entrance Exam in India.
+                            On the basis of JEE Mains rank, I took admission in Thapar Institute of Engineering and Technology,
+                            Patiala.
+                            Currently, I am a 1st year undergraduate student studying Computer Science and Engineering in this
+                            college. I have secured 10/10 GP in 1st semester Examinations.
+                        </p>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="background-color: brown; opacity: 80%;">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="background-color: brown; opacity: 80%;">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
        
-        <div class="row">
+            <!-- <div class="row">
             <div class="col-lg-4">
                 <h2 class="School" style="padding-left: 29%;">High School</h2>
                 <img src="jnvlogo.jpg" alt="jnvlogo" class="logo" style="height: 22.5%; padding-left: 38%;">
@@ -185,11 +250,11 @@
                     college. I have secured 10/10 GP in 1st semester Examinations.
                 </p>
             </div>
-        </div>
+        </div> -->
         </div>
         <hr style="height: 22px; background-color: brown; opacity: 100%;">
 
-        <div class="container-fluid">
+        <div class="container-fluid" id="Hobbies">
             <div class="row" style="background-color: white;">
 
                 <div class="col-sm-3">
@@ -255,7 +320,7 @@
             </p>
         </div>
         <hr style="height: 22px; background-color: brown; opacity: 100%;">
-        <div class="container-fluid">
+        <div class="container-fluid" id="Skills">
             <div class="row" style="background-color: white;">
 
                 <div class="col-sm-3">
@@ -424,42 +489,42 @@
     </section>
     
 
-    <section>
+    <section id="ContactMe">
         <div class="container-fluid">
             <hr style="height: 2.2px; background-color: brown; opacity: 100%;">
             <h3>Contact Me</h3>
             <hr style="height: 2.2px; background-color: brown; opacity: 100%;">
             <div class="row rowcont">
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-sm-3 ">
                     <a href="tel:+916207694270">
                     <button type="button" class="btn btn-secondary btn-lg contact-button"><i
                             class="fas fa-phone-square-alt"></i>  Call Me</button>
                         </a>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-sm-3>
                     <a href="mailto:yashvaibhav2014@gmail.com" target="_blank">
                     <button type="button" class="btn btn-danger btn-lg contact-button"><i
                             class="fas fa-envelope-open-text"></i>  Email</button>
                         
                         </a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-3">
                     <a href="https://www.linkedin.com/in/yash-kumar-86802a196/" target="_blank"><button type="button"
                             class="btn btn-primary btn-lg contact-button "><i class="fab fa-linkedin"></i>  Linkedin</button></a>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-sm-5">
                     <a href="https://www.facebook.com/yashkumar.vaibhav" target="_blank">
                     <button type="button" class="btn btn-primary btn-lg contact-button"><span
                             class="fab fa-facebook-f"></span>  facebook</button></a>
                         </button>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4 col-sm-5">
                     <a href="https://twitter.com/YashKumarVaibh1" target="_blank">
                     <button type="button" class="btn btn-info btn-lg contact-button"><span
                             class="fab fa-twitter-square"></span>  
                         twitter</button></a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-5">
                     <a href="https://api.whatsapp.com/send?phone= +916207694270" target="_blank">
                     <button type="button" class="btn btn-success btn-lg contact-button"><i class="fab fa-whatsapp"></i>
                         Whatsapp</button></a>
