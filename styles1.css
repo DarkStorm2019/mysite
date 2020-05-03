@@ -1,11 +1,12 @@
 #title{
     background-color: whitesmoke;
-    background-image: url("wooden7.jpg");
+    background-image: url("1.gif");
     background-size: 100%;
 }
 body{
     background-color: whitesmoke;
-    background-image: url("wooden7.jpg");
+    background-image: url("1.gif");
+    background-size: 100%;
 }
 h1{
     font-family: 'Cinzel';
@@ -29,7 +30,14 @@ h3 {
     color: whitesmoke;
     background-color: brown;
    
+   
     
+}
+
+.xxx{
+    position: fixed;
+    z-index: 100;
+    width: 95%;
 }
 .col-lg-7{
     margin-top: 8%;
